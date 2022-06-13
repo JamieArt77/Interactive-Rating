@@ -1,0 +1,45 @@
+body{
+	background-color: #131518;
+	font-family: 'Overpass', sans-serif;
+	/*font-family: 'Overpass Mono', monospace , sans-serif;*/
+	/* font: normal 16px family; */
+	margin: 90px 0;
+}
+
+.star{
+	height: 40px;
+	width: 40px;
+}
+
+.rectangle1{
+	background-color: #1B222C;
+	width: 60%;
+	margin: auto;
+	padding: 35px 15px;
+	border-radius: 17px;
+}
+
+.topic{
+	color: #FEFEFE;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.content{
+	line-height: 1.6em;
+	color: #848C9A;
+}
+
+.rectangle1 button{
+	margin: 0 30px;
+	padding-bottom: 25px
+	color: #FEFEFE;
+	color: #FEFEFE;
+	background-color: #FC7614;
+	border: none;
+	font-weight: 600;
+	letter-spacing: 5px;
+	border-radius: 30px;
+	width: 240px;
+	height: 33px;
+}
