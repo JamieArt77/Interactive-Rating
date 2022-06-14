@@ -7,8 +7,15 @@ body{
 }
 
 .star{
-	height: 40px;
 	width: 40px;
+	height: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .rectangle1{
@@ -17,6 +24,18 @@ body{
 	margin: auto;
 	padding: 35px 15px;
 	border-radius: 17px;
+}
+
+.rectangle2{
+	border-radius: 30px;
+	width: 230px;
+	height: 33px;
+	background-color: #252D38;
+	color: #CD661B;
+	text-align: center;
+	border: none;
+	font-weight: 400;
+	
 }
 
 .topic{
@@ -31,9 +50,10 @@ body{
 }
 
 .rectangle1 button{
-	margin: 0 30px;
+	/*margin: 0 30px;
 	padding-bottom: 25px
-	color: #FEFEFE;
+	color: #FEFEFE;*/
+	text-align: center;
 	color: #FEFEFE;
 	background-color: #FC7614;
 	border: none;
@@ -42,4 +62,16 @@ body{
 	border-radius: 30px;
 	width: 240px;
 	height: 33px;
+}
+
+#content{
+	text-align: center;
+}
+
+#tp2{
+	text-align: center;
+}
+
+#btn{
+	text-align: center;
 }
