@@ -1,0 +1,108 @@
+body{
+	background-color: #131518;
+	font-family: 'Overpass', sans-serif;
+	/*font-family: 'Overpass Mono', monospace , sans-serif;*/
+	/* font: normal 16px family; */
+	margin: 110px 0px;
+	/*margin: 15;*/
+}
+
+.container{
+	/*position: absolute;*/
+	background-color: #1B222C;
+	width: 412px;
+	height: 416px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	/*margin: 10;*/
+	/*left: 514px;*/
+	/*top: 195px;*/
+	border-radius: 17px;
+	/*padding: 35px 15px;*/
+}
+
+.topic{
+	color: #FEFEFE;
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 30.38px; 
+	padding-left: 20px;
+}
+
+
+.star{
+	width: 50px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.content{
+	line-height: 1.6em;
+	color: #848C9A;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.rating{
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.star:hover{
+    fill: #FEFEFE;
+}
+
+.rate-1{
+	padding-right: 20px;
+}
+
+.rate-2{
+	padding-right: 20px;
+}
+
+.rate-3{
+	padding-right: 20px;
+}
+
+.rate-4{
+	padding-right: 20px;
+}
+
+.container button{
+	margin: 0 35px;
+	text-align: center;
+	color: #FEFEFE;
+	background-color: #FC7614;
+	border: none;
+	font-weight: 600;
+	letter-spacing: 5px;
+	border-radius: 30px;
+	width: 330px;
+	height: 40px;
+}
+
+
+.logo{
+	padding-top: 20px;
+	/*padding-left: 110px;*/
+}
+
+
+.box{
+	width: 230px;
+	height: auto;
+	background-color: #252D38;
+	border-radius: 30px;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	color: #CD661B;
+}
+
+#container{
+	text-align: center;
+}
+
+

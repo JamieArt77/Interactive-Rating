@@ -3,56 +3,74 @@ body{
 	font-family: 'Overpass', sans-serif;
 	/*font-family: 'Overpass Mono', monospace , sans-serif;*/
 	/* font: normal 16px family; */
-	margin: 90px 0;
+	margin: 110px 0px;
+	/*margin: 15;*/
 }
 
-.star{
-	width: 40px;
-	height: 40px;
-}
-
-.center {
-  display: block;
+.container{
+	/*position: absolute;*/
+	background-color: #1B222C;
+	width: 412px;
+	height: 416px;
+	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-}
-
-.rectangle1{
-	background-color: #1B222C;
-	width: 60%;
-	margin: auto;
-	padding: 35px 15px;
+	/*margin: 10;*/
+	/*left: 514px;*/
+	/*top: 195px;*/
 	border-radius: 17px;
-}
-
-.rectangle2{
-	border-radius: 30px;
-	width: 230px;
-	height: 33px;
-	background-color: #252D38;
-	color: #CD661B;
-	text-align: center;
-	border: none;
-	font-weight: 400;
-	
+	/*padding: 35px 15px;*/
 }
 
 .topic{
 	color: #FEFEFE;
 	font-size: 16px;
 	font-weight: 100;
+	line-height: 30.38px; 
+	padding-left: 20px;
+}
+
+
+.star{
+	width: 50px;
+	height: 50px;
+	padding-left: 10px;
 }
 
 .content{
 	line-height: 1.6em;
 	color: #848C9A;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.rectangle1 button{
-	/*margin: 0 30px;
-	padding-bottom: 25px
-	color: #FEFEFE;*/
+.rating{
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.star:hover{
+    fill: #FEFEFE;
+}
+
+.rate-1{
+	padding-right: 20px;
+}
+
+.rate-2{
+	padding-right: 20px;
+}
+
+.rate-3{
+	padding-right: 20px;
+}
+
+.rate-4{
+	padding-right: 20px;
+}
+
+.container button{
+	margin: 0 35px;
 	text-align: center;
 	color: #FEFEFE;
 	background-color: #FC7614;
@@ -60,18 +78,35 @@ body{
 	font-weight: 600;
 	letter-spacing: 5px;
 	border-radius: 30px;
-	width: 240px;
-	height: 33px;
+	width: 330px;
+	height: 40px;
 }
 
-#content{
+
+.logo{
+	padding-top: 20px;
+	/*padding-left: 110px;*/
+}
+
+
+.box{
+	width: 230px;
+	height: auto;
+	background-color: #252D38;
+	border-radius: 30px;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	color: #CD661B;
+}
+
+#container{
 	text-align: center;
 }
 
-#tp2{
-	text-align: center;
+circle:hover {
+  fill: #FC7614;
 }
 
-#btn{
-	text-align: center;
-}
+
