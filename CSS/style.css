@@ -44,25 +44,31 @@ body{
 	padding-right: 20px;
 }
 
-.rating{
+.rating-val{
 	padding-left: 20px;
 	padding-top: 5px;
 }
 
-.rate-1{
-	padding-right: 20px;
+.rate-btn{
+  width: 51px;
+  height: 51px;
+  border-radius: 60px;
+  border: none;
+  background-color: #262E38;
+  color: #7C8798;
+  margin-right: 19px;
 }
 
-.rate-2{
-	padding-right: 20px;
+
+button.rate-btn:hover
+{
+ background-color:#7C8798;
+ color: #FFFFFF;
 }
 
-.rate-3{
-	padding-right: 20px;
-}
-
-.rate-4{
-	padding-right: 20px;
+button.rate-btn:focus {
+  background-color:#FC7614;
+  color: #FFFFFF;
 }
 
 button.submit{
@@ -74,8 +80,8 @@ button.submit{
 	font-weight: 600;
 	letter-spacing: 5px;
 	border-radius: 30px;
-	width: 330px;
-	height: 40px;
+	width: 341px;
+	height: 45px;
 }
 
 button.submit:hover
