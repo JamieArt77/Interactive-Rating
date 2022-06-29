@@ -20,21 +20,19 @@
 			</div>
 			<form action="./thank-you.html">
 				<div class="rating-val" id="rating-value">
-					<button class="rate-btn" value="1" type="button">1</button>
-					<button class="rate-btn" value="2" type="button">2</button>
-					<button class="rate-btn" value="3" type="button">3</button>
-					<button class="rate-btn" value="4" type="button">4</button>
-					<button class="rate-btn" value="5" type="button">5</button>
+					<button class="rate-btn" value="1" type="button" onclick="localStorage.setItem('clicked_rating', value)">1</button>
+					<button class="rate-btn" value="2" type="button" onclick="localStorage.setItem('clicked_rating', value)">2</button>
+					<button class="rate-btn" value="3" type="button" onclick="localStorage.setItem('clicked_rating', value)">3</button>
+					<button class="rate-btn" value="4" type="button" onclick="localStorage.setItem('clicked_rating', value)">4</button>
+					<button class="rate-btn" value="5" type="button" onclick="localStorage.setItem('clicked_rating', value)">5</button>
 				</div>
 				<br>
 				<br>
-				<!-- Button -->
 				<div>
 					<button id="btn" class="submit">SUBMIT</button>
 				</div>
 			</form>
 		</div>
 	</main>
-	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
