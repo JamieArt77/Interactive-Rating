@@ -28,7 +28,7 @@
 <script>
 	var rating_Val = localStorage.getItem('clicked_rating');
 
-	let rating_string = 'You selected $(rating_Val) out of 5';
+	let rating_string = `You selected ${rating_Val} out of 5`
 
 	document.getElementById('ratingTextBox').innerText = rating_string;
 </script>
