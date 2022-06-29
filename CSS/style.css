@@ -49,10 +49,6 @@ body{
 	padding-top: 5px;
 }
 
-.star:hover{
-    fill: #FEFEFE;
-}
-
 .rate-1{
 	padding-right: 20px;
 }
@@ -69,7 +65,7 @@ body{
 	padding-right: 20px;
 }
 
-.container button{
+button.submit{
 	margin: 0 35px;
 	text-align: center;
 	color: #FEFEFE;
@@ -80,6 +76,12 @@ body{
 	border-radius: 30px;
 	width: 330px;
 	height: 40px;
+}
+
+button.submit:hover
+{
+ background-color:#FFFFFF;
+ color: #FC7614;;
 }
 
 
@@ -106,7 +108,10 @@ body{
 }
 
 circle:hover {
-  fill: #FC7614;
+  fill: #FC7614; 
 }
+
+
+
 
 
