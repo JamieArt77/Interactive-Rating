@@ -37,32 +37,56 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 14px;
-	/*margin-right: px;*/
 }
 
 
-.rating{
+.rating-val{
 	padding-left: 20px;
 	padding-top: 5px;
 }
 
-.rate-1{
-	padding-right: 10px;
+.rate-btn{
+  width: 42px;
+  height: 42px;
+  border-radius: 60px;
+  border: none;
+  background-color: #262E38;
+  color: #7C8798;
+  margin-right: 10px;
 }
 
-.rate-2{
-	padding-right: 10px;
+button.rate-btn:hover
+{
+ background-color:#7C8798;
+ color: #FFFFFF;
 }
 
-.rate-3{
-	padding-right: 10px;
+button.rate-btn:focus {
+  background-color:#FC7614;
+  color: #FFFFFF;
 }
 
-.rate-4{
-	padding-right: 10px;
+button.submit{
+	margin: 0 25px;
+	text-align: center;
+	color: #FEFEFE;
+	background-color: #FC7614;
+	border: none;
+	font-weight: 600;
+	letter-spacing: 5px;
+	border-radius: 22.5px;
+	width: 279px;
+	height: 45px;
 }
 
-.container button{
+button.submit:hover
+{
+ background-color:#FFFFFF;
+ color: #FC7614;;
+}
+
+
+/*.container button{
 	margin: 0 25px;
 	line-height: 17.72px;
 	lett
@@ -76,7 +100,7 @@ body{
 	width: 279px;
 	height: 45px;
 }
-
+*/
 
 .logo{
 	padding-top: 20px;

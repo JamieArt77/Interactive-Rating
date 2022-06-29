@@ -13,11 +13,9 @@
 				<img src="images/Online payment.svg" alt="payment icon">
 			</div>
 			<br>
-			<div class="box">
-				You selected 4 out of 5
-			</div>
+			<div class="box" id="ratingTextBox"></div>
 			<br>
-			<div id="tp2" class="topic">Thank you!</div>
+			<div class="topic">Thank you!</div>
 			<div class="content">
 				<p id="content">
 				We appreciate you taking time to give a rating. If you ever need support, don't hesitate to get in touch!
@@ -27,4 +25,11 @@
 		</div>
 	</main>
 </body>
+<script>
+	var rating_Val = localStorage.getItem('clicked_rating');
+
+	let rating_string = 'You selected $(rating_Val) out of 5';
+
+	document.getElementById('ratingTextBox').innerText = rating_string;
+</script>
 </html>

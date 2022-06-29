@@ -13,9 +13,7 @@
 				<img src="images/Online payment.svg" alt="payment icon">
 			</div>
 			<br>
-			<div class="box" id="ratingTextBox">
-				
-			</div>
+			<div class="box" id="ratingTextBox"></div>
 			<br>
 			<div id="tp2" class="topic"><h1>Thank you!</h1></div>
 			<div class="content">
@@ -29,9 +27,8 @@
 </body>
 <script>
 	var rating_Val = localStorage.getItem('clicked_rating');
-	console.log(rating_Val);
 
-	let rating_string = 'You selected $(ratingVal) out of 5 '
+	let rating_string = 'You selected $(rating_Val) out of 5';
 
 	document.getElementById('ratingTextBox').innerText = rating_string;
 </script>
